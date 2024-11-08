@@ -1,78 +1,70 @@
-# Portfolio project
-Unlock your creativity and craft a captivating portfolio website!
+# Getting Started with Create React App
 
-This project invites you to design and develop your own personal site to showcase your skills, experiences, achievements, and especially your projects to the world. 
-Highlighting your projects is crucial, as they provide tangible evidence of your abilities and the value you can bring. You can think of:
-* A project gallery
-* Detailed Case Studies
-* Interactive Demos 
-* Code Repositories 
-* Video Presentations 
-* Blog Posts or Articles
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Remember: Your portfolio must meet all the requirements outlined in the Functional Design Document (FDD).
+## Available Scripts
 
-## Collect proof of your work in the 'sintlucas' folder
-* Any document you create (FDD.md, TDD.md, REVIEW.md and any other document)
-* Screenshots of your scrum board during stand-ups (before and after).
-* Video of (or parts of) the working application.
-* Screenshots of tests you did and the changes you made afterwards.
-* Notes created during meetings.
-* ...
+In the project directory, you can run:
 
-## General planning
-A planning a scrum master could use:
-[GENERAL_PLANNING.md](sintlucas%2FGENERAL_PLANNING.md)
+### `npm start`
 
-## Analyse the FDD (Functional Design Document)
-Make sure that you understand what you need to build:
-* Study all available information in the Functional Design Document (FDD)
-* Refine the requirements in the FDD and use diagrams (e.g. wireframes, flow charts).
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Analyse the TDD (Technical Design Document)
-Read the TDD in the `sintlucas` folder.
- 
-## Prepare
-* Create a scrum board in `GitHub Projects`.
-* Place the refined requirements in `GitHub Issues`, or the backlog.
-* Add just enough items to the `sprint backlog` in the scrum board's `To do` column.
-  
-## Realise
-Each lesson:
-* Open the Issues and update if necessary.
-* Are there any impediments in your way and should you ask for help?
-* Start developing on the items.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Don't forget:
-* Commit and push your changes regularly.
-* Check the result in the browser regularly.
-* Make sure that your code is readable and has comments.
-* Make sure that your code follows the code conventions.
+### `npm test`
 
-## Test
-* Perform tests on the application as described in the TDD.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Review
-* Show the result of each item in the `Done` column.
-* Write down feedback you get in `REVIEW.md`.
-* Add/change items in the backlog (in Issues) based on the feedback in `REVIEW.md`.
+### `npm run build`
 
-## Retrospective
-* Complete the `RETROSPECTIVE.md` in the `sintlucas` folder.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Presentation & Assessment
-In the last week you will present the results:
-  * Prepare for the presentation
-  * Show the end product
-  * Prove that you met the criteria in `sintlucas/ASSESSMENT.MD`
-  * You will be assessed on the criteria in `sintlucas/ASSESSMENT.MD`.
-  * You will receive feedback on your work.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Video of your work
-Create a video of the working application:
-* Before the Presentation & Assessment, you must create a video of the working application.
-* The video should show the main functionalities of the application.
-* It should be a screencast with a voice-over.
-* The video should be a maximum of 5 minutes long.
-* Add the video to the `sintlucas` folder.
-* Give the video a clear name, e.g. `video-portfolioproject-your-name.mp4`.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
