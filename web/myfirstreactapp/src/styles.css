@@ -1,0 +1,718 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    color: wheat;
+    background-image: url("./img/background.png");
+    width: 100vw;
+    margin: 0;
+}
+
+h1{
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    color: #f2cf8d;
+}
+
+h2{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    color: wheat;
+}
+
+p{
+    margin: 0;
+}
+
+.navContainer{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    transition: .3s;
+}
+
+ul {
+    padding: 0;
+}
+
+.container{
+    margin: 5rem 0rem;
+    text-align: center;
+}
+
+#projectsTitle{
+    margin: 2rem;
+}
+
+.nav {
+    display: flex;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    gap: 2rem;
+    justify-content: center;
+    transition: .3s;
+}
+
+.site-title {
+    font-size: 2rem;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    transition: .3s;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    transition: .3s;
+}
+
+.nav li.active {
+    border-radius: 10px;
+    background-color: #c7b187;
+    transition: .3s;
+}
+
+.nav li:hover {
+    font-size: 18px;
+    color: wheat;
+    border-radius: 10px;
+    background-color: #8f8677;
+    box-shadow: #b5a586 0px 0px 400px;
+    transition: .3s;
+}
+
+.profilePicture{
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: wheat 0px 0px 15px;
+    transition: .2s;
+}
+
+.profilePicture:hover{
+    width: 310px;
+    border-radius: 50%;
+    box-shadow: black 0px 0px 10px;
+    transition: .2s;
+}
+
+.aboutMePicture{
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: wheat 0px 0px 15px;
+    transition: .2s;
+}
+
+.aboutMePicture:hover{
+    width: 310px;
+    border-radius: 15px;
+    transition: .2s;
+}
+
+.homeContainer {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.homeTextAlligner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.homeText{
+    width: 400px;
+    text-align: left;
+    transition: 1s;
+}
+
+.homeText:hover{
+    width: 350px;
+    text-align: left;
+    transition: 1s;
+}
+
+.homeContainer li{
+    border-radius: 10px;
+}
+
+.homeContainer a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.homeContainer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    gap: 2rem;
+}
+
+.navButtons{
+    display: flex;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.navButtonRightButton{
+    font-size: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: wheat;
+    transition: .3s;
+}
+
+.navButtonRightButton:hover{
+    font-size: 17px;
+    background-color: #8f8677;
+    color: black;
+    box-shadow: #b5a586 0px 0px 400px;
+    transition: .3s;
+}
+
+.navButtonLeftButton{
+    font-size: 15px;
+    background-color: wheat;
+    color: black;
+    transition: .3s;
+}
+
+.navButtonLeftButton:hover{
+    font-size: 17px;
+    background-color: #8f8677;
+    color: white;
+    box-shadow: #b5a586 0px 0px 400px;
+    transition: .3s;
+}
+
+.aboutMeContainer{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap:5rem;
+}
+
+.aboutMeAligner{
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+}
+
+#aboutMeDescription{
+    width: 230px;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.aboutMeInfoPlanes{
+    width:100%;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+.aboutMeInfoPlanes h2{
+    color: #f2cf8d;
+}
+
+#aboutMeText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.aboutMePlane{
+    padding: 23px;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: 0px 2px 7px 4px rgba(0,0,0,0.4),
+    0px 7px 13px -3px rgba(0,0,0,0.3),
+    0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    background: transparent;
+    padding: 25px 25px 30px;
+    border-radius: 8px;
+    color: wheat;
+}
+
+form h2{
+    font-size: 30px;
+    color: wheat;
+    text-align: center;
+}
+
+form .input-box{
+    margin-top: 15px;
+}
+
+.input-box .field{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #ddd;
+    outline: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 16px;
+    color: wheat;
+    margin-bottom: 8px;
+    transition: .3s;
+    box-shadow: 0px 2px 7px 4px rgba(0,0,0,0.4),
+    0px 7px 13px -3px rgba(0,0,0,0.3),
+    0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+}
+
+.input-box .field:hover{
+    height: 60px;
+    transition: .3s;
+}
+
+.input-box .field.mess{
+    height: 200px;
+    resize: none;
+    transition: .3s;
+    box-shadow: 0px 2px 7px 4px rgba(0,0,0,0.4),
+    0px 7px 13px -3px rgba(0,0,0,0.3),
+    0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+}
+
+.input-box .field.mess:hover{
+    height: 210px;
+    transition: .3s;
+}
+
+form button{
+    width: 100%;
+    height: 55px;
+    background-color: wheat;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    margin-top: 25px;
+    transition: .3s;
+}
+
+form button:hover{
+    width: 100%;
+    height: 55px;
+    background-color: #8f8677;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 25px;
+    box-shadow: #b5a586 0px 0px 400px;
+    transition: .3s;
+}
+
+form label{
+    font-size: 18px;
+    font-weight: 450;
+    display: flex;
+    margin: 10px 0 10px 0;
+    transition: .3s;
+}
+
+form label:hover{
+    font-size: 19px;
+    font-weight: 450;
+    display: flex;
+    margin: 10px 0 10px 0;
+    transition: .3s;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:1rem;
+}
+
+.project{
+    list-style-type: none;
+}
+
+.wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectImg{
+    height: 100%;
+    border-radius: 15px;
+    position: relative;
+    margin:auto;
+}
+
+.projectImg img{
+    width: 270px;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.projectImg:hover img{
+    width: 280px;
+    transition: .3s;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: .6s;
+    border-radius: 15px;
+}
+
+.content:hover{
+    opacity: 1;
+}
+
+.content p{
+    text-decoration: none;
+    color: wheat;
+}
+
+.projectText{
+    box-shadow: 0px 2px 7px 4px rgba(36, 36, 36, 0.4),
+    0px 7px 13px -3px rgba(0,0,0,0.3),
+    0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+    text-align: left;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.projectText h2{
+    color: #f2cf8d;
+}
+
+.projectSkills{
+    display: flex;
+    gap:0.5rem;
+    box-shadow: 0px 2px 7px 4px rgba(36, 36, 36, 0.4),
+    0px 7px 13px -3px rgba(0,0,0,0.3),
+    0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.projectIcon:hover{
+    width: 50px;
+    height: 50px;
+    transition: .3s;
+}
+
+.projectInfoContainer{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.projectsContainer{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.viewButton button:hover{
+    background-color: #8f8677;
+    color: #fff;
+    font-weight: 500;
+    box-shadow: #b5a586 0px 0px 400px;
+    transition: .3s;
+}
+
+.viewButton a{
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewButton button{
+    width: 90%;
+    height: 55px;
+    background-color: wheat;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    margin-top: 25px;
+    transition: .3s;
+}
+
+#worldEvoMiddlePart{
+    justify-content: space-around;
+}
+
+#MiniMeVid video{
+    border-radius: 15px;
+    width: 1200px;
+}
+
+.ProjectPageContainer{
+    display: flex;
+    flex-direction: column;
+}
+.ProjectPageContainerPictures ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.ProjectPageContainerPictures img{
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 7px 4px rgba(36, 36, 36, 0.4),
+    0px 7px 13px -3px rgba(0,0,0,0.3),
+    0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+}
+
+.ProjectPageContainerIcons img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.ProjectPageContainerIcons ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ProjectPageContainerIcons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+#skills img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.skillTile{
+    width: 550px;
+    height: 170px;
+    border-radius: 15px;
+    padding: 15px 30px;
+    box-shadow: wheat 0 5px 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    transition: .3s;
+}
+
+.skillTile:hover{
+    height: 200px;
+    width: 600px;
+    transition: .3s;
+}
+
+.skillTexts{
+    width: 20rem;
+}
+
+.skillTexts p{
+    text-align: left;
+}
+
+.sProjectContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sProjectContent p{
+    text-align: left;
+}
+
+.sProjectContent h2{
+    text-align: left;
+}
+
+.sProjectContentReverse p{
+    text-align: right;
+}
+
+.sProjectContentReverse h2{
+    text-align: right;
+}
+
+
+.sProjectContent{
+    width: 600px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 15px;
+    box-shadow: 0px 2px 7px 4px rgba(36, 36, 36, 0.4),
+    0px 7px 13px -3px rgba(0,0,0,0.3),
+    0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+}
+
+.sProjectContent p{
+    width: 250px;
+}
+
+.sProjectContentReverse p{
+    width: 250px;
+}
+
+.sProjectContentSummary{
+    border-radius: 15px;
+    width: 600px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    box-shadow: 0px 2px 7px 4px rgba(36, 36, 36, 0.4),
+    0px 7px 13px -3px rgba(0,0,0,0.3),
+    0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+}
+
+.sProjectContentReverse{
+    border-radius: 15px;
+    width: 600px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    box-shadow: 0px 2px 7px 4px rgba(36, 36, 36, 0.4),
+    0px 7px 13px -3px rgba(0,0,0,0.3),
+    0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+}
+
+
+.sProjectContent img{
+    width: 250px;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.sProjectContentReverse img{
+    width: 250px;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.sProjectContent img:hover{
+    width: 260px;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.sProjectContentReverse img:hover{
+    width: 260px;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.sProjectVideoContainer video{
+    width: 600px;
+    border-radius: 15px;
+}
+
+.linkTile img{
+    width: 50px;
+    object-fit: cover;
+    transition: .3s;
+}
+
+.linkTile img:hover{
+    width: 60px;
+    object-fit: cover;
+    transition: .3s;
+}
+
+.linksTile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: row;
+}
